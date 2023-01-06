@@ -6,3 +6,4 @@ tmp/
 temp/
 *lock*
 .env
+/dist

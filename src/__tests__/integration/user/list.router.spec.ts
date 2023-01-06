@@ -97,7 +97,7 @@ describe("List users route", () => {
       status: 401,
       bodyMessage: { message: "Missing permission" },
     };
-
+    console.log(response.body)
     expect(response.status).toBe(expectedResponses.status);
     expect(response.body).toStrictEqual(expectedResponses.bodyMessage);
   });
